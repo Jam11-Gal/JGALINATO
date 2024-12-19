@@ -1,0 +1,10 @@
+let word1 = ("racecar:");
+let word2 = ("recorder:");
+
+console.log("Original word 1:", word1);
+console.log("Reversed word 1:", word1.split("").reverse().join(""));
+console.log("Original word 2:", word2);
+console.log("Reversed word 2:", word2.split("").reverse().join(""));
+
+console.log("Is word 1 a palindrome?", word1 === word1.split("").reverse().join(""));
+console.log("Is word 2 a palindrome?", word2 === word2.split("").reverse().join(""));
